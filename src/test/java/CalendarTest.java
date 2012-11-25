@@ -31,6 +31,7 @@ public class CalendarTest {
 	
 	@Test
 	public void testCalendarWithLeapSecond() {
+		// 30.06.2012 23:59:60
 		final Calendar calendar = new GregorianCalendar(2012, 5, 30, 23, 59, 60);
 		final DateFormat dateFormat = new SimpleDateFormat(Constants.PATTERN);
 		
